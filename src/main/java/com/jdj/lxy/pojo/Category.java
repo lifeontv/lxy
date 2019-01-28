@@ -21,5 +21,14 @@ public class Category {
 		this.name = name;
 	}
 	
+	private Mypicture picture;
+
+	public Mypicture getPicture() {
+		return picture;
+	}
+
+	public void setPicture(Mypicture picture) {
+		this.picture = picture;
+	}
 	
 }
